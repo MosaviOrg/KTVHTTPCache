@@ -1,0 +1,4 @@
+module KTVHTTPCache {
+    header "KTVHTTPCache.h"
+    export *
+}

@@ -1,0 +1,5 @@
+module CocoaAsyncSocket {
+    umbrella header "GCDAsyncSocket.h"
+    export *
+    module * { export * }
+}

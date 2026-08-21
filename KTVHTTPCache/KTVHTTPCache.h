@@ -25,15 +25,15 @@ FOUNDATION_EXPORT const unsigned char KTVHTTPCacheVersionString[];
 
 #else
 
-#import "KTVHCError.h"
-#import "KTVHCRange.h"
-#import "KTVHCDataReader.h"
-#import "KTVHCDataLoader.h"
-#import "KTVHCDataHLSLoader.h"
-#import "KTVHCDataRequest.h"
-#import "KTVHCDataResponse.h"
-#import "KTVHCDataCacheItem.h"
-#import "KTVHCDataCacheItemZone.h"
+#import "Classes/KTVHCCommon/KTVHCError.h"
+#import "Classes/KTVHCCommon/KTVHCRange.h"
+#import "Classes/KTVHCDataStorage/KTVHCDataReader.h"
+#import "Classes/KTVHCDataStorage/KTVHCDataLoader.h"
+#import "Classes/KTVHCDataStorage/KTVHCDataHLSLoader.h"
+#import "Classes/KTVHCDataStorage/KTVHCDataRequest.h"
+#import "Classes/KTVHCDataStorage/KTVHCDataResponse.h"
+#import "Classes/KTVHCDataStorage/KTVHCDataCacheItem.h"
+#import "Classes/KTVHCDataStorage/KTVHCDataCacheItemZone.h"
 
 #endif
 
