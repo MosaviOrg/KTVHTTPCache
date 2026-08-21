@@ -1,7 +1,5 @@
 # KTVHTTPCache
 
-![Cocoapods Version](https://img.shields.io/cocoapods/v/KTVHTTPCache) ![Cocoapods License](https://img.shields.io/cocoapods/l/KTVHTTPCache?color=red) ![Cocoapods platforms](https://img.shields.io/cocoapods/p/KTVHTTPCache?color=green)
-
 KTVHTTPCache 是一个强大的 HTTP 缓存框架，非常适合用于多媒体资源的缓存。
 
 - [English](https://github.com/ChangbaDevs/KTVHTTPCache/blob/master/README.md)
@@ -28,7 +26,7 @@ KTVHTTPCache 是一个强大的 HTTP 缓存框架，非常适合用于多媒体�
 ## Requirements
 
 - iOS 12.0 or later
-- Xcode 11.0 or later
+- Xcode 12.0 or later
 
 
 ## Supported Formats
@@ -42,25 +40,23 @@ KTVHTTPCache 是一个强大的 HTTP 缓存框架，非常适合用于多媒体�
 
 ## Installation
 
-#### Installation with CocoaPods
+#### Swift Package Manager
 
-To integrate KTVHTTPCache into your Xcode project using CocoaPods, specify it in your Podfile:
+在 Xcode 中选择 **File > Add Package Dependencies...**，输入下面的仓库地址，然后将 `KTVHTTPCache` product 添加到 App target：
 
-```objc
-pod 'KTVHTTPCache', '~> 3.0.0'
+```text
+https://github.com/MosaviOrg/KTVHTTPCache.git
 ```
 
-Run `pod install`
+之后可在 Swift 或 Objective-C 中导入模块：
 
-#### Installation with Carthage
-
-To integrate KTVHTTPCache into your Xcode project using Carthage, specify it in your Cartfile:
-
-```objc
-github "ChangbaDevs/KTVHTTPCache" ~> 3.0.0
+```swift
+import KTVHTTPCache
 ```
 
-Run `carthage update` to build the framework and drag the built `KTVHTTPCache.framework` and `KTVCocoaHTTPServer.framework` into your Xcode project.
+```objc
+@import KTVHTTPCache;
+```
 
 
 ## 设计原则
@@ -220,4 +216,3 @@ KTVHTTPCache is released under the MIT license.
 
 - [SGPlayer](https://github.com/libobjc/SGPlayer) - A powerful media player framework for iOS, macOS, and tvOS.
 - [KTVVideoProcess](https://github.com/ChangbaDevs/KTVVideoProcess) - A High-Performance video effects processing framework.
-
